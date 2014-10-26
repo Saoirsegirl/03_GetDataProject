@@ -32,4 +32,4 @@ names(tidyData2)[1:3] <- c("activity", "Activity", "Subject")
 
 # Instruction #5 - Tidy Data set of averages - write to file for submission
 submitData <- aggregate(. ~ Subject + Activity, data = tidyData2, FUN = "mean")
-write.table(submitData, file="submitData.txt", sep = ",", row,name=FALSE)
+write.table(submitData, file="submitData.txt", sep = ",", row.name=FALSE)
