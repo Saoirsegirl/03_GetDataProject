@@ -1,12 +1,13 @@
 03_Getting_Data_Project
 =======================
-<<<<<<< HEAD
 
 ## Sourcing, Importing and Loading the needed files
-Data for this program is sourced and described atthe following websites.
+Data for this program is sourced and described at the following websites.
 **Information about the experiment** design and data collection assumptions are at:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-**Files are located at:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**Files are located at:**  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Please see the codebook "run_analysis.Rmd"  for more description of this program and details on the data sourced, used and output.  
 
 To better segregate functions performing blocks of actions from the distinct actions that create the requested final outputs, the file 03_1_Import_Files.R accompanies the program.
 ### Functions Performed in 03_1_Import_Files.R
@@ -47,7 +48,4 @@ Now that the data has been imported without any changes to the content of the da
 
 *4 - Use Descriptive names in the columns* -- Added "subject" and "activity" to the documented features names in the features.txt file provided by the websites above. The originals are retained to avoid confusion. The new column for the full activites description is capitalized "Activity" to make it distinct from the original id column.   
 
-*5 - Calculate the averages for each subject and activity for each measurement* 
-=======
-Please see the codebook "run_analysis.Rmd"  for a description of this program and data used
->>>>>>> 6cc60e5ee3bc134aa15be04f7a944c79c8b77c19
+*5 - Calculate the averages* -- using FUN = mean on each subject and activity for each measurement.   

@@ -30,9 +30,6 @@ tidyData2 <- merge(activities, tidyData1, by.x = "activity", by.y = "V1.1", all=
 # instruction #4 - Use descriptive Variable (column) names
 names(tidyData2)[1:3] <- c("activity", "Activity", "Subject")
 
-# QA Point - verify subject 2 from test data == subject 2 from tidyData2
-
-
 # Instruction #5 - Tidy Data set of averages - write to file for submission
 submitData <- aggregate(. ~ Subject + Activity, data = tidyData2, FUN = "mean")
-write.table(submitData, file="submitData.txt", sep = ",")
+write.table(submitData, file="submitData.txt", sep = ",", row,name=FALSE)
