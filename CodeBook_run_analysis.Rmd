@@ -15,12 +15,14 @@ The initial dataset is a .zip files which includes four .txt files and two folde
  *   subject_test.txt  
  *   X_test.txt  
  *   y_test  
-     +   folder: Inertial Signals/ (this is raw data we will not be using)  
+     +   folder: Inertial Signals/ (this is raw data we will not be using)    
+     
 **folder: train/**  
  *  subject_train.txt  
  *  X_train.txt  
  *  y_train.txt  
-     +  folder: Inertial Signals/ (this is raw data we will not be using)  
+     +  folder: Inertial Signals/ (this is raw data we will not be using)    
+
 * README.txt  
 * features.txt (a list of all features in X_test/train.txt)  
 * features_info. (a code book descsribing the data)  
