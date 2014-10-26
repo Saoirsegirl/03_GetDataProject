@@ -46,6 +46,6 @@ Now that the data has been imported without any changes to the content of the da
 5.		STANDING  
 6.		LAYING  
 
-*4 - Use Descriptive names in the columns* -- Added "subject" and "activity" to the documented features names in the features.txt file provided by the websites above. The originals are retained to avoid confusion. The new column for the full activites description is capitalized "Activity" to make it distinct from the original id column.   
+*4 - Use Descriptive names in the columns* -- Added "Subject" and "activity" to the documented features names in the features.txt file provided by the websites above. The originals are retained to avoid confusion. The new column for the full activites description is capitalized "Activity" to make it distinct from the original id column.   
 
-*5 - Calculate the averages* -- using FUN = mean on each subject and activity for each measurement.   
+*5 - Calculate the averages* -- using FUN = mean on each Subject and Activity for each measurement.   
